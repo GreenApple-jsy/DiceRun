@@ -34,4 +34,9 @@ public class DiceHitterController : MonoBehaviour
 
         NumberSprite.sprite = DiceSprites[myNumber - 1];
     }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        Debug.Log(other);
+    }
 }

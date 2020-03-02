@@ -168,7 +168,6 @@ GameObject:
   - component: {fileID: 24374485}
   - component: {fileID: 24374484}
   - component: {fileID: 24374483}
-  - component: {fileID: 24374482}
   m_Layer: 0
   m_Name: EndPointObject
   m_TagString: Untagged
@@ -176,19 +175,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &24374482
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 24374481}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &24374483
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -292,8 +278,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.2746222, y: 1.2800814, z: 8.0608635}
+  m_Center: {x: -0.00527668, y: -0.007926688, z: 3.5304308}
 --- !u!23 &60528608
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -893,8 +879,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.3082407, y: 1.3116032, z: 9.298968}
+  m_Center: {x: -0.007005453, y: -0.0073155356, z: -4.149485}
 --- !u!23 &719154751
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1267,8 +1253,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.2227292, y: 1.2323529, z: 7.7570453}
+  m_Center: {x: -8.888598e-16, y: -0.005736172, z: 3.378525}
 --- !u!23 &1308963482
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1450,8 +1436,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.2651533, y: 1.2311163, z: 7.3710394}
+  m_Center: {x: -0.010606259, y: 0.0025433302, z: 3.185528}
 --- !u!23 &1631932161
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1819,6 +1805,7 @@ GameObject:
   - component: {fileID: 1994627864}
   - component: {fileID: 1994627863}
   - component: {fileID: 1994627866}
+  - component: {fileID: 1994627867}
   m_Layer: 0
   m_Name: DiceHitter
   m_TagString: Untagged
@@ -1849,7 +1836,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1994627861}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1918,6 +1905,22 @@ MonoBehaviour:
   - {fileID: 21300000, guid: b8abb0a28a6dfb64091dc9c26fb88a87, type: 3}
   - {fileID: 21300000, guid: 5d2d65e44bb40b64e92341d4a5df1d5a, type: 3}
   - {fileID: 21300000, guid: 6f71ae42ced5e5d45af2d93756ec5629, type: 3}
+--- !u!54 &1994627867
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994627861}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 124
+  m_CollisionDetection: 0
 --- !u!1 &2059264177
 GameObject:
   m_ObjectHideFlags: 0
@@ -1962,8 +1965,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.2843164, y: 1.2966807, z: 10.832513}
+  m_Center: {x: 0.0151234865, y: 0.009082079, z: -4.9162574}
 --- !u!23 &2059264180
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2053,8 +2056,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.3084447, y: 1.2482438, z: 11.126677}
+  m_Center: {x: 0.0138103245, y: 0.004169941, z: -5.0633736}
 --- !u!23 &2109747882
 MeshRenderer:
   m_ObjectHideFlags: 0
