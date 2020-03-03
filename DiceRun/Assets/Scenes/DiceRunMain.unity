@@ -278,8 +278,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2746222, y: 1.2800814, z: 8.0608635}
-  m_Center: {x: -0.00527668, y: -0.007926688, z: 3.5304308}
+  m_Size: {x: 1.2746222, y: 1.2800814, z: 84.30916}
+  m_Center: {x: -0.00527668, y: -0.00792652, z: 41.654583}
 --- !u!23 &60528608
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -879,8 +879,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.3082407, y: 1.3116032, z: 9.298968}
-  m_Center: {x: -0.007005453, y: -0.0073155356, z: -4.149485}
+  m_Size: {x: 1.3082407, y: 1.3116032, z: 78.01774}
+  m_Center: {x: -0.007005453, y: -0.007315687, z: -38.50887}
 --- !u!23 &719154751
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1253,8 +1253,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2227292, y: 1.2323529, z: 7.7570453}
-  m_Center: {x: -8.888598e-16, y: -0.005736172, z: 3.378525}
+  m_Size: {x: 1.2227292, y: 1.2323529, z: 94.69036}
+  m_Center: {x: -1.6116038e-14, y: -0.005736172, z: 46.845238}
 --- !u!23 &1308963482
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1436,8 +1436,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2651533, y: 1.2311163, z: 7.3710394}
-  m_Center: {x: -0.010606259, y: 0.0025433302, z: 3.185528}
+  m_Size: {x: 1.2651533, y: 1.2311163, z: 86.730736}
+  m_Center: {x: -0.010606609, y: 0.0025433302, z: 42.865456}
 --- !u!23 &1631932161
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1965,8 +1965,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2843164, y: 1.2966807, z: 10.832513}
-  m_Center: {x: 0.0151234865, y: 0.009082079, z: -4.9162574}
+  m_Size: {x: 1.2843164, y: 1.2966807, z: 95.385735}
+  m_Center: {x: 0.0151234865, y: 0.009082079, z: -47.192833}
 --- !u!23 &2059264180
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2056,8 +2056,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.3084447, y: 1.2482438, z: 11.126677}
-  m_Center: {x: 0.0138103245, y: 0.004169941, z: -5.0633736}
+  m_Size: {x: 1.3084447, y: 1.2482438, z: 76.84792}
+  m_Center: {x: 0.013810614, y: 0.004169941, z: -37.92401}
 --- !u!23 &2109747882
 MeshRenderer:
   m_ObjectHideFlags: 0
