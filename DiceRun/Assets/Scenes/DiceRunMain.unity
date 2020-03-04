@@ -248,7 +248,7 @@ GameObject:
   - component: {fileID: 60528607}
   m_Layer: 0
   m_Name: Side4
-  m_TagString: Untagged
+  m_TagString: DiceSide
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -278,8 +278,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2746222, y: 1.2800814, z: 84.30916}
-  m_Center: {x: -0.00527668, y: -0.00792652, z: 41.654583}
+  m_Size: {x: 0.73890233, y: 0.7139248, z: 84.30916}
+  m_Center: {x: 0.005025626, y: -0.0027797318, z: 41.654583}
 --- !u!23 &60528608
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -334,9 +334,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 136993243}
+  - component: {fileID: 136993244}
   m_Layer: 0
   m_Name: Dice
-  m_TagString: Untagged
+  m_TagString: Dice
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -361,6 +362,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &136993244
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136993242}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1005534, y: 1.0958809, z: 1.1005608}
+  m_Center: {x: -0.0010922551, y: -0.0012030005, z: 0.0023002028}
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -849,7 +863,7 @@ GameObject:
   - component: {fileID: 719154750}
   m_Layer: 0
   m_Name: Side3
-  m_TagString: Untagged
+  m_TagString: DiceSide
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -879,8 +893,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.3082407, y: 1.3116032, z: 78.01774}
-  m_Center: {x: -0.007005453, y: -0.007315687, z: -38.50887}
+  m_Size: {x: 0.73131144, y: 0.642509, z: 78.01774}
+  m_Center: {x: 0.003296911, y: 0.008124927, z: -38.50887}
 --- !u!23 &719154751
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1223,7 +1237,7 @@ GameObject:
   - component: {fileID: 1308963481}
   m_Layer: 0
   m_Name: Side6
-  m_TagString: Untagged
+  m_TagString: DiceSide
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1253,8 +1267,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2227292, y: 1.2323529, z: 94.69036}
-  m_Center: {x: -1.6116038e-14, y: -0.005736172, z: 46.845238}
+  m_Size: {x: 0.71791595, y: 0.65590227, z: 94.69035}
+  m_Center: {x: -0.005151093, y: -0.005736053, z: 46.84524}
 --- !u!23 &1308963482
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1406,7 +1420,7 @@ GameObject:
   - component: {fileID: 1631932160}
   m_Layer: 0
   m_Name: Side5
-  m_TagString: Untagged
+  m_TagString: DiceSide
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1436,8 +1450,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2651533, y: 1.2311163, z: 86.730736}
-  m_Center: {x: -0.010606609, y: 0.0025433302, z: 42.865456}
+  m_Size: {x: 0.68822443, y: 0.6546657, z: 86.730736}
+  m_Center: {x: -0.020908916, y: -0.028337717, z: 42.865463}
 --- !u!23 &1631932161
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1905,6 +1919,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: b8abb0a28a6dfb64091dc9c26fb88a87, type: 3}
   - {fileID: 21300000, guid: 5d2d65e44bb40b64e92341d4a5df1d5a, type: 3}
   - {fileID: 21300000, guid: 6f71ae42ced5e5d45af2d93756ec5629, type: 3}
+  CurrentDiceSide: 0
 --- !u!54 &1994627867
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1935,7 +1950,7 @@ GameObject:
   - component: {fileID: 2059264179}
   m_Layer: 0
   m_Name: Side1
-  m_TagString: Untagged
+  m_TagString: DiceSide
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1965,8 +1980,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2843164, y: 1.2966807, z: 95.385735}
-  m_Center: {x: 0.0151234865, y: 0.009082079, z: -47.192833}
+  m_Size: {x: 0.77950305, y: 0.6481731, z: 95.385735}
+  m_Center: {x: -0.0003298521, y: -0.0063586235, z: -47.192833}
 --- !u!23 &2059264180
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2026,7 +2041,7 @@ GameObject:
   - component: {fileID: 2109747881}
   m_Layer: 0
   m_Name: Side2
-  m_TagString: Untagged
+  m_TagString: DiceSide
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2056,8 +2071,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.3084447, y: 1.2482438, z: 76.84792}
-  m_Center: {x: 0.013810614, y: 0.004169941, z: -37.92401}
+  m_Size: {x: 0.74181837, y: 0.7232621, z: 76.84792}
+  m_Center: {x: -0.001642847, y: -0.011270642, z: -37.92401}
 --- !u!23 &2109747882
 MeshRenderer:
   m_ObjectHideFlags: 0

@@ -14,12 +14,12 @@ public class RoadManager : MonoBehaviour
         DiceHitterObject = GameObject.Find("DiceHitter");
         EndPointZ = (GameObject.Find("EndPointObject").transform.position.z);
         StartPointZ = this.transform.position.z;
-        Speed = 0f;
+        Speed = 1f;
     }
 
     void Update()
     {
-        Speed += Time.deltaTime;
+        Speed += Time.deltaTime * 0.5f;
 
         // z좌표 조금씩 이동
         transform.Translate(0, 0, -1 * Speed * Time.deltaTime);
