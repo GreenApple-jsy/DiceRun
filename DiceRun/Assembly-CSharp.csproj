@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\DiceHitterController.cs" />
     <Compile Include="Assets\Scripts\RoadManager.cs" />
     <Compile Include="Assets\Scripts\RotationKeyManager.cs" />
+    <Compile Include="Assets\Scripts\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\ScreenResolution.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/puppy/Documents/DiceRun/DiceRun/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

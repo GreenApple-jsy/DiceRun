@@ -7,18 +7,15 @@ public class DiceHitterController : MonoBehaviour
     private int myNumber;
     private SpriteRenderer NumberSprite;
     public Sprite[] DiceSprites = new Sprite[6];
-    public int CurrentDiceSide;
+    private int CurrentDiceSide;
+    private ScoreManager mainScoreManager;
 
-    void Start()
+    void Awake()
     {
+        mainScoreManager = GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
         myNumber = Random.Range(1, 7);
         NumberSprite = transform.GetChild(0).GetComponent<SpriteRenderer>();
         ChangeNumber();
-    }
-
-    void Update()
-    {
-        
     }
 
     //DiceHitter Number 변경
@@ -47,10 +44,12 @@ public class DiceHitterController : MonoBehaviour
             if (CurrentDiceSide == myNumber)
             {
                 Debug.Log("맞음");
+                mainScoreManager.AddScore(10);
             }
             else
             {
                 Debug.Log("틀림 / 부딪힌 면 :" + CurrentDiceSide);
+                mainScoreManager.MinusScore(10);
             }
         }
     }
