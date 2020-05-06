@@ -17,18 +17,30 @@ public class StartMenuManager : MonoBehaviour
 
     public void RankingButtonClick()
     {
-        //랭킹 패널 열기
+        //랭킹 씬 열기
     }
 
-
-    void Update()
+    public void StoreButtonClick()
     {
-        //뒤로가기 키 처리
+        //상점 씬 열기
     }
 
     public void QuitButtonClick()
     {
         //종료
         Application.Quit();
+    }
+
+    void Update()
+    {
+        //안드로이드인 경우 뒤로가기 키 입력 처리
+        if (Application.platform == RuntimePlatform.Android)
+        {
+            if (Input.GetKey(KeyCode.Escape))
+            {
+                //종료
+                Application.Quit();
+            }
+        }
     }
 }
