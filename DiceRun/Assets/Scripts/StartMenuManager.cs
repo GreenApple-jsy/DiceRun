@@ -25,6 +25,11 @@ public class StartMenuManager : MonoBehaviour
         //상점 씬 열기
     }
 
+    public void TutorialButtonClick()
+    {
+        //튜토리얼 씬 열기
+    }
+
     public void QuitButtonClick()
     {
         //종료
