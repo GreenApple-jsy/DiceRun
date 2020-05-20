@@ -2,12 +2,46 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class StartMenuManager : MonoBehaviour
 {
+    public GameObject OptionButton;
+    public GameObject StartButton;
+    public GameObject StoreButton;
+    public GameObject QuitButton;
+    public GameObject RankingButton;
+    public GameObject TutorialButton;
+    public GameObject Tutorial_Ranking_Buttons;
+
+    //씬 로드
+    private IEnumerator LoadScene(string sceneName)
+    {
+        yield return new WaitForSeconds(2.0f);
+        SceneManager.LoadScene(sceneName);
+    }
+
+    //전체 버튼 비활성화
+    private void DisableAllButtons()
+    {
+        OptionButton.GetComponent<Button>().interactable = false;
+        StartButton.GetComponent<Button>().interactable = false;
+        StoreButton.GetComponent<Button>().interactable = false;
+        QuitButton.GetComponent<Button>().interactable = false;
+        RankingButton.GetComponent<Button>().interactable = false;
+        TutorialButton.GetComponent<Button>().interactable = false;
+    }
+
     public void StartButtonClick()
     {
-        SceneManager.LoadScene("DiceRunMain");
+        DisableAllButtons();
+
+        OptionButton.GetComponent<Animation>().Play();
+        QuitButton.GetComponent<Animation>().Play();
+        StoreButton.GetComponent<Animation>().Play();
+        Tutorial_Ranking_Buttons.GetComponent<Animation>().Play();
+
+        StartCoroutine(LoadScene("DiceRunMain"));
     }
 
     public void OptionButtonClick()
