@@ -12,7 +12,7 @@ public class StartMenuButtonAnimation : MonoBehaviour
     public GameObject TutorialButton;
     public GameObject QuitButton;
 
-    public float rotationSpeed = 0.025f;
+    public float rotationSpeed = 0.01f;
     public float rotationAngle = 1f;
     public float rightAngleVal = 0.705f;
 
